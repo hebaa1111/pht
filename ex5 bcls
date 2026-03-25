@@ -1,0 +1,11 @@
+secret = "123"
+tentative = ""
+compteur = 0
+
+while tentative != secret:
+    tentative = input("Saisir un mot de passe : ")
+    compteur = compteur + 1
+
+print("Trouvé en", compteur, "tentatives")
+
+
