@@ -4,6 +4,7 @@ for i in range(1,11):
     produit = n*i
     print (n,"*",i,"=",produit)
 
+
     
 
 
