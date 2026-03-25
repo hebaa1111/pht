@@ -1,7 +1,0 @@
-e = [10, 20, 30, 40, 50] 
-a = e[0]
-b = e[2]
-c = e[4]
-print(a)
-print(b)
-print(c)
