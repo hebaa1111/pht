@@ -1,3 +1,2 @@
 prénoms = ['Alice', 'Bob', 'Charlie']
-print(len(prénoms))  # 3 — len() donne le nombre d'éléments 
-print("Alice,Bob,Charlie")
+print(len(prénoms))  # 3 — len() donne 
