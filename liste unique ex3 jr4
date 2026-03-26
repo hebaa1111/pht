@@ -1,0 +1,10 @@
+# Liste avec des repetitions 
+prenoms = ['Alice', 'Bob', 'Alice', 'Charlie', 'Bob', 'Alice'] 
+ 
+# Supprimer les doublons 
+uniques = list(set(prenoms)) 
+print(uniques)  # ['Alice', 'Bob', 'Charlie'] 
+ 
+# Compter les doublons 
+print('Avec doublons :', len(prenoms))   # 6 
+print('Sans doublons :', len(uniques))   # 3
