@@ -1,0 +1,8 @@
+presents = {'Alice', 'Charlie', 'Eve'} 
+inscrits = {'Alice', 'Bob', 'Charlie', 'Diana'} 
+absents = inscrits - presents 
+print(absents)
+présents_non_inscrits= presents - inscrits
+print(présents_non_inscrits)
+tout= inscrits | presents
+print(tout)
