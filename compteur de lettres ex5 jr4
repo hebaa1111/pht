@@ -1,0 +1,9 @@
+mot = input("Saisir un mot : ")
+compteur = {}
+for lettre in mot:
+    if lettre in compteur:
+        compteur[lettre] += 1
+    else:
+        compteur[lettre] = 1
+for lettre in sorted(compteur):
+    print(f"{lettre} : {compteur[lettre]}")
