@@ -1,0 +1,7 @@
+dic = {"pomme": 10, "banane": 5, "orange": 8}
+print(dic["pomme"])
+dic["orange"] += 3
+dic["kiwi"] = 4
+for fruit, quantite in dic.items():
+    if quantite > 6:
+        print(f"{fruit} : {quantite}")
