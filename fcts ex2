@@ -1,0 +1,6 @@
+def calcul_périmètre (longueur,largeur):
+    """calculer le périmètre d'un rectangle"""
+    return 2 * (longueur + largeur)
+p= calcul_périmètre (7,5)
+print ("le périmètre d'un rectangle est",p)
+    
