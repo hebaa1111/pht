@@ -1,0 +1,5 @@
+def saluer(nom, message='Bonjour'):
+    print(f"{message} {nom}!")
+saluer("Alice")
+saluer("Alice", "salut")   
+saluer("Alice", "bonsoir")

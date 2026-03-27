@@ -1,0 +1,13 @@
+nombres = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] 
+carres = [] 
+for n in range(1, 11): 
+    carres.append(n * n)    
+carres = [n * n for n in range(1, 11)] 
+pairs = [n for n in nombres if n % 2 == 0] 
+print(pairs)  
+mots = ["python", "est", "cool"]
+dic_longueurs = {mot: len(mot) for mot in mots}
+prenoms = ["Alice", "Bob", "Anna", "Charlie", "Brice"]
+initiales = {p[0] for p in prenoms}
+
+
