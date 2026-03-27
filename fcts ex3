@@ -1,0 +1,11 @@
+def stats(notes) :
+    """retourne moyenne, note minimale, note maximale"""
+    moyenne= sum(notes) / len(notes)
+    note_minimale= min(notes)
+    note_maximale= max(notes)
+    return moyenne, note_minimale, note_maximale
+my, mn, mx = stats([12, 8, 15, 10, 18])
+print("moyenne:",my)
+print("note_minimale:",mn)
+print("note_maximale:",mx)
+
